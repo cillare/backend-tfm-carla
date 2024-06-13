@@ -35,8 +35,8 @@ class UserController extends Controller
         ]);
 
         $user = new user([
-            'username' => $request->get('name'),
-            'password' => $request->get('password'),
+            'username' => $request->get('username'),
+            'password' => $request->get('userpassword'),
         ]);
 
         $user->save();
@@ -67,7 +67,7 @@ class UserController extends Controller
     public function update(Request $request, string $id)
     {
         $user = User::find($id);
-        $user->username = $request->name;
+        $user->username = $request->username;
         $user->password = $request->password;
         $user->update();
 
