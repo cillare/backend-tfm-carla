@@ -26,8 +26,8 @@ Segueix aquests passos per configurar el projecte en el teu entorn local.
 
 ### 1. Clona el repositori
 
-git clone https://github.com/el-teu-usuari/el-teu-repositori.git
-cd el-teu-repositori
+git clone https://github.com/cillare/backend-tfm-carla.git
+cd backend-tfm-carla
 
 ### 2. Instal·la les dependències de PHP
 
@@ -81,8 +81,8 @@ Follow these steps to set up the project in your local environment.
 
 ### 1. Clone the repository
 
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+git clone https://github.com/cillare/backend-tfm-carla.git
+cd backend-tfm-carla
 
 ### 2. Install PHP dependencies
 
